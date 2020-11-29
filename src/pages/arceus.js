@@ -25,7 +25,8 @@ var personPokemonHP = 0;
 var personPokemonHPcurr = 0;
 var personPokemonNormal = "";
 var personPokemonSpecial = "";
-// window.confirm = jest.fn(() => true)
+
+window.confirm = jest.fn(() => true)
 var confirm = window.confirm('You defeated ' + botName + "!"+' Do you wish to Capture this Pokemon?');
 
 function botPokemon(name_pok_bot){
