@@ -189,7 +189,7 @@ export default class PokedexPage extends Component {
         { type: "dragon", checked: true },
       ],
       search: "",
-      idUser: props.location.state.idUser,
+      idUser: this.state.idUser,
     }
     this.handleChange = this.handleChange.bind(this)
   }
