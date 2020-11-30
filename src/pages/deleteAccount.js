@@ -123,7 +123,7 @@ export { GetNames }
 export default function deleteAccount(props) {
   var id = ""
   if (props.location != undefined) {
-    id = props.location.state.idUser
+    id = props.location.state.personId
   }
 
   require("../components/pokedex.css")
