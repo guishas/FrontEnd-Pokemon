@@ -35,9 +35,6 @@ const Header = ({ siteTitle }) => (
       <Link to="/battle" className="header-button">
         Batalha
       </Link>
-      <Link to="/dungeon" className="evento">
-        Evento
-      </Link>
       <Link to="/moves" className="header-button">
         Golpes
       </Link>
